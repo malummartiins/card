@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.card{
+    width: 300px;
+    height: 600px;
+    background-image: url(img/cafefundo.avif);
+    border-radius: 15px;
+}
+
+.conf__sombra{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.sombra{
+    width: 260px;
+    height: 560px;
+    background-color: rgba(51, 14, 3, 0.867);
+    
+}
+
+.conf__img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.conf__titulo{
+    text-align: center;
+}
+
+.titulo{
+    color: aliceblue;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.conf__texto{
+    text-align: center;
+}
+
+.texto{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+    
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(18, 4, 2);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s;  
+}
+
+.btn:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    background-color: beige;
+    color:  rgb(18, 4, 2) ;
+}
